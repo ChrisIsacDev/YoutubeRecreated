@@ -1,0 +1,46 @@
+/* Reset de estilos padrão para garantir uma base limpa */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.channel {
+align-items: flex-start;
+border-radius: 50%;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilos do conteúdo principal (grid de vídeos) */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas no grid */
+  gap: 16px; /* Espaçamento entre os cartões de vídeo */
+  padding: 16px; /* Espaçamento interno do grid */
+}
+
+.video-card {
+  background-color: #f9f9f9; /* Cor de fundo dos cartões de vídeo */
+  padding: 16px; /* Espaçamento interno dos cartões de vídeo */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.2);
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333; /* Cor de fundo do rodapé do YouTube */
+  height: 60px; /* Altura do rodapé */
+  color: #fff; /* Cor do texto do rodapé */
+  text-align: center; /* Centraliza o texto no rodapé */
+  padding: 16px; /* Espaçamento interno do rodapé */
+}
